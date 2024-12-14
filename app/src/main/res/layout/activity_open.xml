@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fitnessassistant.OpenActivity"
+    android:background="@drawable/bg2">
+
+
+    <TextView
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="121dp"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:text="Get Better"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:id="@+id/startbtn"
+        android:layout_width="163dp"
+        android:layout_height="49dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="212dp"
+        android:src="@drawable/start" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="281dp"
+        android:layout_height="78dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="567dp"
+        android:layout_marginEnd="89dp"
+        android:fontFamily="@font/poppins"
+        android:text="Elevate your fitness game with our gym assistant app. Discover personalized workout and meal plans tailored to your goals.Start today and unleash your full potential!"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="493dp"
+        android:layout_marginEnd="57dp"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:text="Result Today!"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="40dp" />
+
+
+</RelativeLayout>
+

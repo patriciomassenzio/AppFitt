@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".AddWorkout">
+
+    <TextView
+        android:id="@+id/Workoutheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Workout Plans"
+        android:textColor="@color/red"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/workoutsavebtn"
+        android:layout_width="91dp"
+        android:layout_height="45dp"
+        android:layout_alignTop="@+id/Workoutheading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="6dp"
+        android:src="@drawable/save" />
+
+    <EditText
+        android:id="@+id/wdate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/Workoutheading"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/border"
+        android:fontFamily="@font/poppins"
+        android:hint="Date"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/workoutcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/wdate"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/border"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="top"
+        android:hint="Enter the workout Plan"
+        android:padding="12dp"
+        android:textSize="18sp" />
+
+</RelativeLayout>
