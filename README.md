@@ -1,14 +1,5 @@
-# Workout Planner
+#AppFitt
 
-The Workout Planner app is a versatile tool designed to help users organize and track their fitness journey with ease. Whether you're a seasoned athlete or just starting out, this app is your ultimate companion for staying on top of your workouts and reaching your fitness goals.
-
-## Features
-
-- **Custom Workouts**: Create personalized workout plans tailored to your specific goals and preferences.
-- **Date-Based Planning**: Schedule workouts for specific dates to stay organized and accountable.
-- **Update and Delete**: Easily modify your plans by updating or deleting workouts as needed.
-- **Track Progress**: Monitor your performance and achievements by tracking completed workouts and progress over time.
-- **User-Friendly Interface**: Intuitive design makes it easy for users of all levels to navigate and utilize the app efficiently.
 
 ## Screenshots
 
